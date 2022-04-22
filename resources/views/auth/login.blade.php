@@ -74,29 +74,29 @@
 <div class="conatiner">
     <div class="form">
         <div class="contact-info">
-                <h3 class="contact_tittle">BIENVENIDO USUARIO</h3>
+                <h3 class="contact_tittle">BIENVENIDO AL PANEL DE CIUTecNM</h3>
                 <p class="contact_text">Si tienes un problema al iniciar sesión has olvidado tu contraseña por favor comunícate con los administradores.
                 </p>
 
             <div class="contactos_info">
                 <div class="contact_information">
                     <i class="fas fa-2x fa-user"></i>
-                    <p>jldm605@gmail.com</p>
+                    <p>jamtz97@hotmail.com</p>
                 </div>
                 <div class="contact_information">
                     <i class="fas fa-2x fa-user"></i>
-                    <p>999999999</p>
+                    <p>sanchezortegalitzyhaydee5@gmail.com</p>
                 </div>
                 <div class="contact_information">
                     <i class="fas fa-2x fa-user"></i>
-                    <p>9990-89095</p>
+                    <p>susyespinosa87@gmail.com</p>
                 </div>
             </div>
             <div class="social_media">
                 <p>Atte:</p>
                 <div class="social-icons">
-                        <img src="{{asset('img/favicon_higienika_office_peru.png')}}" alt="">
-                        <p>Higienika Oficce Perú</p>
+                        <img src="{{asset('img/favicon.jpg')}}" alt="">
+                        <p>Card Identification University TecNM</p>
                 </div>
             </div>
         </div>

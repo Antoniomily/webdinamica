@@ -57,7 +57,7 @@
                 3-Respete los caracteres de los campos solicitados.
             </p>
             <hr>
-            <p class="mb-0">Que tengas un hermoso dia Atte: JLDIAZ</p>
+            <p class="mb-0">Que tengas buen dia Atte: CIUTecNM</p>
         </div>
 </div>
 @endsection

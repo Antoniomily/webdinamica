@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="imagenes" href="{{asset('img/favicon.ico')}}">
+    <link rel="shortcut icon" type="imagenes" href="{{asset('img/favicon.jpg')}}">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>JLDM |Panel administrativo</title>
+    <title>CIUTecNM | Panel administrativo</title>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
@@ -86,9 +86,9 @@
             <aside class="main-sidebar bg-light elevation-4">
                 <!-- Brand Logo -->
                 <a href="{{ url('/') }}" class="brand-link">
-                    <img src="https://i.ibb.co/Z2shSJj/animado-Recuperado.png" alt="JLDIAZ logo" class="brand-image img-circle"
+                    <img src="https://w7.pngwing.com/pngs/831/88/png-transparent-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design-smile.png" alt="JLDIAZ logo" class="brand-image img-circle"
                         style="opacity: .8">
-                    <span class="brand-text font-weight-light">JLDM</span>
+                    <span class="brand-text font-weight-light">CIUTecNM</span>
                 </a>
 
                 <!-- Sidebar -->
@@ -173,7 +173,7 @@
                                     class="{{ Request::path() === 'ofertas/todas' ? 'nav-link active' : 'nav-link' }}">
                                     <i class="text-info fas fa-star"></i>
                                     <p>
-                                        Oferata del dia
+                                        Ofertas del dia
                                     </p>
                                 </a>
                             </li>
@@ -205,7 +205,7 @@
                                     class="{{ Request::path() === 'ofertas/todas' ? 'nav-link active' : 'nav-link' }}">
                                     <i class="fas fa-user-friends"></i>
                                     <p>
-                                        Oferata del dia
+                                        Ofertas del dia
                                     </p>
                                 </a>
                             </li>
@@ -214,7 +214,7 @@
                                     class="{{ Request::path() === 'clientes/todas' ? 'nav-link active' : 'nav-link' }}">
                                     <i class="fas fa-user-friends"></i>
                                     <p>
-                                        clientes
+                                        Clientes
                                     </p>
                                 </a>
                             </li>
@@ -240,7 +240,7 @@
             <!-- /.content-wrapper -->
             <footer class="main-footer">
                 <!-- NO QUITAR -->
-                <strong> JLDIAZ
+                <strong> CIUTecNM
                     <div class="float-right d-none d-sm-inline-block">
                         <b>Version</b> 1.0
                     </div>
@@ -248,7 +248,7 @@
 
             <!-- Control Sidebar -->
             <aside class="control-sidebar control-sidebar-dark">
-               <h1>Hola que hace</h1>
+               <h1>CIUTecNM tarjeta de descuento</h1>
             </aside>
             <!-- /.control-sidebar -->
         </div>

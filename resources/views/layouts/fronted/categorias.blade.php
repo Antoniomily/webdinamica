@@ -3,14 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" type="imagenes" href="{{asset('img/favicon.ico')}}">
+        <link rel="shortcut icon" type="imagenes" href="{{asset('img/favicon.jpg')}}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
-        <title>JLDM |Productos</title>
+        <title>CIU | TecNM</title>
 
         <!-- Fonts--> 
         <link href="{{asset('css/style.css') }}" rel="stylesheet">
@@ -39,9 +39,9 @@
     <script src="{{asset('js/typed.js') }}"></script>
     <script>
 	var typed = new Typed('.type', {
-        strings: ['<span><i class="fas fa-check"></i></span> CELULARES', 
-                '<span><i class="fas fa-check"></i></span> LAPTOPS',
-                '<span><i class="fas fa-check"></i></span> REPUESTOS'],
+        strings: ['<span><i class="fas fa-check"></i></span> ALIMENTOS', 
+                '<span><i class="fas fa-check"></i></span> ACCESORIOS',
+                '<span><i class="fas fa-check"></i></span> SERVICIOS'],
     typeSpeed:60,backSpeed:60,loop:true});
     </script>
     </body>

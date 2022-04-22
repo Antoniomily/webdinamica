@@ -2,19 +2,19 @@
 @section('redes')
 <div class="red">
     <div id="facebook">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-facebook-f "></a>
+        <a href="https://www.facebook.com/Ciutecnm-104251618932716/" target="none" class="fab fa-facebook-f "></a>
     </div>
     <div id="instagram">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-instagram"></a>
+        <a href="https://instagram.com/ciutecnm?igshid=YmMyMTA2M2Y=" target="none" class="fab fa-instagram"></a>
     </div>
     <div id="twiter">
-        <a href="" target="none" class="fab fa-twitter-square"></a>
+        <a href="https://twitter.com/ciutecnm" target="none" class="fab fa-twitter-square"></a>
     </div>
     <div id="whatsaap">
-        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-whatsapp"></a>
+        <a href="https://wa.me/5619918278?text=Hola%2CEstoy+interesad%40+en+unirme+a+CIUTecNM" target="none" class="fab fa-whatsapp"></a>
     </div>
-    <div id="linkeding">
-        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-linkedin"></a>
+    <div id="gmail">
+        <a href="mailto:ciutecnm@gmail.com" target="none" class="fab fa-gmail"></a>
     </div>
 </div>
 @endsection
@@ -24,11 +24,11 @@
         <div class="d-inline-flex ml-auto">
             <div class="headcont">
                 <i class="fas fa-2x fa-mobile-alt messenge"></i>
-                +51 999-999-999
+                5619918278
             </div>
             <div class="headcont">
                 <i class="fas fa-2x fa-envelope messenge"></i>
-                jldm605@gmail.com
+                ciutecnm@gmail.com
             </div>
         </div>
     </div>
@@ -37,8 +37,7 @@
 @section('navbar')
     <header>
     <a href="#" class="logo">
-        <h2 style="color: white" class="imgtamaño">JLDM</h2>
-        <!--<img  class="imgtamaño" src="{{ asset('img/Logojldm.png')}}" alt="JLDM ! Proyects">-->
+        <h2 style="color: white" class="imgtamaño">CIUTecNM</h2>
     </a>
     <div class="menu-toggle" ></div>
         <nav>
@@ -60,7 +59,7 @@
                     <div class="hero-text">
                         <h4>PAGINA <span>WEB</span></h4>
 					    <br><br>
-                        <h1 class="tipeo1">DESCRIPCIÓN:</h1>
+                        <h1 class="tipeo1">VARIEDAD DE SERVICIOS</h1>
                     </div>
                 </div>
             </div>
@@ -99,7 +98,7 @@
     <!-- Product Pricing -->
     <div class="product-price">
         <span>S/{{$producto->price}}</span>
-            <a target="none" href="https://wa.me/51987456321?text=Hola+interesad%40+en+el+Producto%3A+{{$producto->name}}" class="cart-btn">
+            <a target="none" href="https://wa.me/5619918278?text=Hola%2CEstoy+interesad%40+en+unirme+a+CIUTecNM{{$producto->name}}" class="cart-btn">
             Consultar
             </a>
     </div>
@@ -119,10 +118,9 @@
 @section('footer')
 <footer class="footer">
     <div class="l-footer">
-        <!--<img  class="footer_img" src="{{asset('img/JLDIAZ.png')}}" alt="JLDM | Proyectos">-->
-        <h2 style="color: white" class="footer_img">JLDM</h2>
-    <p>Hola Soy JLDIAZ diseñador web esta pagina web esta totalmente gratis para que puedan implementar a algun proyecto universitario la unica de
-        condicon de uso es que mejoren algo a esta pagina web para que asi fortalezcan sus conocimientos.
+        <h2 style="color: white" class="footer_img">CIUTecNM</h2>
+    <p>CIUTecNM es una tarjeta de descuentos digital, la cual es recibida en establecimientos afiliados mediante servicios que
+        proporciona la comunidad perteneciente al TecNM campus Tláhuac.
     </p>
     </div>
         <ul class="r-footer">
@@ -131,19 +129,19 @@
                 <ul class="box">
                     <li class="button_social">
                         <i class="fab mr-2 fa-facebook"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Facebook</a>
+                        <a href="https://www.facebook.com/Ciutecnm-104251618932716/" target="_blank">Facebook</a>
                     </li>
                     <li class="button_social">
                         <i class="fab mr-2 fa-twitter"></i>
-                        <a href="#">Twitter</a>
+                        <a href="https://twitter.com/ciutecnm">Twitter</a>
                     </li>
                     <li class="button_social">
                         <i class="fab mr-2 fa-instagram"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Instagram</a>
+                        <a href="https://instagram.com/ciutecnm?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a>
                     </li>
                     <li class="button_social">
-                        <i class="fab mr-2 fa-linkedin-in"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Linkedin</a>
+                        <i class="fab mr-2 fa-gmail"></i>
+                        <a href="mailto:ciutecnm@gmail.com" target="_blank">Gmail</a>
                     </li>
                 </ul>
             </li>
@@ -151,18 +149,18 @@
             <h2>Información</h2>
             <ul class="box">
                 <li><a href="#">Políticas de Privacidad</a></li>
-                <li><a href="#">Trabaja con nosotros</a></li>
+                <li><a href="https://wa.me/5619918278?text=Hola%2CEstoy+interesad%40+en+unirme+a+CIUTecNM">Unete a nosotros</a></li>
             </ul>
             </li>
             <li class="features">
-                <h2>Procedimiento de Pagos</h2>
+                <h2>Descarga Nuestra App CIUTECNM</h2>
                 <ul class="box">
-                    <li><a type="button" href="#">Ver mas</a></li>
+                    <li><a type="button" class="btn btn-outline-info"  data-toggle="modal" data-target=".bd-example-modal-xl" href="{{asset('img/CIUTECNM.apk')}}">Download</a></li>
                 </ul>
                 </li>
         </ul>
         <div class="b-footer">
-            <p>Todos los Derechos reservados by <a href="https://josediazmirano.github.io/jldiaz/" target="_blank">©JLDIAZ-2020</a></p>
+            <p>Todos los Derechos reservados by <a href="#/" target="_blank">©CIUTecNM-2022</a></p>
         </div>
 </footer>
 @endsection

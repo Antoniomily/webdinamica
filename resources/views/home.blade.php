@@ -73,7 +73,7 @@
                 <div class="small-box bg-danger">
                     <div class="inner">
                         <h3>{{$cons_clientes}}</h3> 
-                        <p>Clinetes</p>
+                        <p>Clientes</p>
                     </div>
                     <div class="icon">
                         <i class="fas fa-street-view"></i>

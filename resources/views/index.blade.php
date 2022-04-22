@@ -2,19 +2,19 @@
 @section('redes')
 <div class="red">
     <div id="facebook">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-facebook-f "></a>
+        <a href="https://www.facebook.com/Ciutecnm-104251618932716/" target="none" class="fab fa-facebook-f "></a>
     </div>
     <div id="instagram">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-instagram"></a>
+        <a href="https://instagram.com/ciutecnm?igshid=YmMyMTA2M2Y=" target="none" class="fab fa-instagram"></a>
     </div>
     <div id="twiter">
-        <a href="" target="none" class="fab fa-twitter-square"></a>
+        <a href="https://twitter.com/ciutecnm" target="none" class="fab fa-twitter-square"></a>
     </div>
     <div id="whatsaap">
-        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-whatsapp"></a>
+        <a href="https://wa.me/5619918278?text=Hola%2CEstoy+interesad%40+en+unirme+a+CIUTecNM" target="none" class="fab fa-whatsapp"></a>
     </div>
-    <div id="linkeding">
-        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-linkedin"></a>
+    <div id="gmail">
+        <a href="mailto:ciutecnm@gmail.com" target="none" class="fab fa-gmail"></a>
     </div>
 </div>
 @endsection
@@ -24,11 +24,11 @@
         <div class="d-inline-flex ml-auto">
             <div class="headcont">
                 <i class="fas fa-2x fa-mobile-alt messenge"></i>
-                +51 999-999-999
+                5619918278
             </div>
             <div class="headcont">
                 <i class="fas fa-2x fa-envelope messenge"></i>
-                jldm605@gmail.com
+                ciutecnm@gmail.com
             </div>
         </div>
     </div>
@@ -37,8 +37,7 @@
 @section('navbar')
     <header>
     <a href="#" class="logo">
-        <h2 style="color: white" class="imgtamaño">JLDM</h2>
-        <!--<img  class="imgtamaño" src="{{ asset('img/jldm.png')}}" alt="JLDM ! Proyects">-->
+        <h2 style="color: white" class="imgtamaño">CIUTecNM</h2>
     </a>
     <div class="menu-toggle" ></div>
         <nav>
@@ -58,10 +57,10 @@
             <div class="row">
                 <div class="col-12">
                     <div class="hero-text">
-                        <h4>PAGINA <span>WEB</span></h4>
+                        <h4>CARD <span>ID</span> <span>UNIVERSITY</span></h4>
 						<br>
 						<br>
-                        <h1 class="tipeo1">JLDIAZ</h1>
+                        <h1 class="tipeo1">CIU TecNM</h1>
                         <h1 class="tipeo2"><span class="type"></span></h1>
                         <div class="botonesinfo">
                         <a href="" class="btn hero-btn">MAS INFORMACIÓN</a>
@@ -90,8 +89,8 @@
             <div class="single-content_service">
                 <div class="service">
                     <i class="fas fa-shopping-cart fa-4x"></i>
-                    <h4 class="title_services">Entrega Inmediata</h4>
-                    <p class="description_services">Servicio de entrega inmediata</p><br>
+                    <h4 class="title_services">Porque con CIUTecNM</h4>
+                    <p class="description_services">Variedad de servicios</p><br>
                     <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl2">Ver mas</a>  
                 </div>
             </div>
@@ -101,7 +100,7 @@
                 <div class="service">
                     <i class="fas fa-user-check fa-4x"></i>
                     <h4 class="title_services">Clientes Satisfechos</h4>
-                    <p class="description_services">Nuestros clientes felices con nuestro servicio</p>
+                    <p class="description_services">Nuestros clientes felices con los servicios</p>
                     <a href="{{ url('/nosotros')}}" class="btn_modal_wel mt-5">Ver mas</a>  
                 </div>
             </div>
@@ -110,8 +109,8 @@
             <div class="single-content_service">
                 <div class="service">
                     <i class="fas fa-thumbs-up fa-4x"></i>
-                    <h4 class="title_services">Múltiples Formas de Pago</h4>
-                    <p class="description_services">Diferentes tipos de pago</p>
+                    <h4 class="title_services">Descarga nuestra app CIUTecNM</h4>
+                    <p class="description_services">Consume nuestro servicio y valida tu identidad</p>
                     <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>          
                 </div>
             </div>
@@ -124,41 +123,61 @@
     <div class="row_cards">
         <div class="col-md-3 col-sm-6 mb-3">
             <div class="single-content">
-                <img src="{{ asset('img/categoria/cat1.jpg')}}" alt="Categorias Higienika Oficce Perú">
+                <img src="{{ asset('img/categoria/cate1.jpg')}}" alt="CIUTecNM">
                 <div class="text-content">
-                    <h3>Productos de Celulares</h3>
+                    <h3>Servicios tecnológicos</h3>
                     <hr class="style2">
-                    <h5>Para el hogar y oficina</h5>
+                    <h6>Telecomunicaciones, plataformas, redes sociales</h6>
                 </div>
             </div>
         </div>
         <div class="col-md-3 col-sm-6 mb-3">
             <div class="single-content">
-                <img src="{{ asset('img/categoria/cat2.jpg')}}" alt="Categorias Higienika Oficce Perú">
+                <img src="{{ asset('img/categoria/cate2.jpg')}}" alt="CIUTecNM">
                 <div class="text-content">
-                    <h3>Artículos de Oficina</h3>
+                    <h3>Servicios profesionales</h3>
                     <hr class="style2">
-                    <h5>Artículos de oficina de las mejores marcas</h5>
+                    <h6>Área contable, administrativa, informática, comunicaciones</h6>
                 </div>
             </div>
         </div>
         <div class="col-md-3 col-sm-6 mb-3">
             <div class="single-content">
-                <img src="{{ asset('img/categoria/cat3.jpg')}}" alt="Categorias Higienika Oficce Perú">
+                <img src="{{ asset('img/categoria/cate3.jpg')}}" alt="CIUTecNM">
                 <div class="text-content">
-                    <h3>Repuestos De Moviles</h3>
+                    <h3>Servicios de salud</h3>
                     <hr class="style2">
-                    <h5>Distribuimos Partes y repuestos</h5>
+                    <h5>Clínicas, consultorios, sector sanitario</h5>
                 </div>
             </div>
         </div>
         <div class="col-md-3 col-sm-6 mb-3">
             <div class="single-content">
-                <img src="{{ asset('img/categoria/cat4.jpg')}}" alt="Categorias Higienika Oficce Perú">
+                <img src="{{ asset('img/categoria/cate4.jpg')}}" alt="CIUTecNM">
                 <div class="text-content">
-                    <h3>Artículos de Laptops</h3>
+                    <h3>Servicios de entretenimiento</h3>
                     <hr class="style2">
-                    <h5>Artículos Laptops de trabajo</h5>
+                    <h6>Actividades recreativas, deportes, actividades culturales</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="single-content">
+                <img src="{{ asset('img/categoria/cate5.jpg')}}" alt="CIUTecNM">
+                <div class="text-content">
+                    <h3>Servicios gastronómicos</h3>
+                    <hr class="style2">
+                    <h6>Restaurantes, bares, cafeterías</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="single-content">
+                <img src="{{ asset('img/categoria/cate6.jpg')}}" alt="CIUTecNM">
+                <div class="text-content">
+                    <h3>Servicios educativos y de formación</h3>
+                    <hr class="style2">
+                    <h6>Cursos, colegios, servicios comunitarios</h6>
                 </div>
             </div>
         </div>
@@ -169,7 +188,7 @@
 <div class="col-12 pt-2" style="background: #0781b6">
 		<div class="proveedor-title">
 			<h5 style="color: black">CONOCE A</h5>
-            <h3 style="color: white">NUESTROS PROVEEDORES</h3>
+            <h3 style="color: white">NUESTROS PROVEEDORES DE SERVICIOS</h3>
             <hr class="style5">
 	    </div>
 </div>
@@ -186,7 +205,7 @@
             <div class="content">
                 <h1>{{$proveedore->name}}</h1>
                 <hr class="">
-                <h5 style="color: white">En Este segmento puedes poner una descripción de lo mas importante acerca de tus proveedores.</h5>
+                <h5 style="color: white">CIUTecNM</h5>
             </div>
             <div class="img">
                 <img src="{{asset('/img/proveedore/'.$proveedore->image)}}" alt="">
@@ -200,7 +219,7 @@
 <div class="col-12">
 		<div class="testimonial-title">
 			<h5>CONOCE</h5>
-            <h3>NUESTROS PRODUCTOS</h3>
+            <h3>LOS DIVERSOS SERVICIOS</h3>
             <hr class="style1">
 	    </div>
 </div>
@@ -241,10 +260,9 @@
 @section('footer')
 <footer class="footer">
     <div class="l-footer">
-        <!--<img  class="footer_img" src="{{asset('img/JLDIAZ.png')}}" alt="JLDM | Proyectos">-->
-        <h2 style="color: white" class="footer_img">JLDM</h2>
-    <p>Hola Soy JLDIAZ diseñador web esta pagina web esta totalmente gratis para que puedan implementar a algun proyecto universitario la unica de
-        condicon de uso es que mejoren algo a esta pagina web para que asi fortalezcan sus conocimientos.
+        <h2 style="color: white" class="footer_img">CIUTecNM</h2>
+    <p>CIUTecNM es una tarjeta de descuentos digital, la cual es recibida en establecimientos afiliados mediante servicios que
+        proporciona la comunidad perteneciente al TecNM campus Tláhuac. 
     </p>
     </div>
         <ul class="r-footer">
@@ -253,19 +271,19 @@
                 <ul class="box">
                     <li class="button_social">
                         <i class="fab mr-2 fa-facebook"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Facebook</a>
+                        <a href="https://www.facebook.com/Ciutecnm-104251618932716/" target="_blank">Facebook</a>
                     </li>
                     <li class="button_social">
                         <i class="fab mr-2 fa-twitter"></i>
-                        <a href="#">Twitter</a>
+                        <a href="https://twitter.com/ciutecnm">Twitter</a>
                     </li>
                     <li class="button_social">
                         <i class="fab mr-2 fa-instagram"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Instagram</a>
+                        <a href="https://instagram.com/ciutecnm?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a>
                     </li>
                     <li class="button_social">
-                        <i class="fab mr-2 fa-linkedin-in"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Linkedin</a>
+                        <i class="fab mr-2 fa-gmail"></i>
+                        <a href="https://instagram.com/ciutecnm?igshid=YmMyMTA2M2Y=" target="_blank">Gmail</a>
                     </li>
                 </ul>
             </li>
@@ -273,18 +291,18 @@
             <h2>Información</h2>
             <ul class="box">
                 <li><a href="#">Políticas de Privacidad</a></li>
-                <li><a href="#">Trabaja con nosotros</a></li>
+                <li><a href="https://wa.me/5619918278?text=Hola%2CEstoy+interesad%40+en+unirme+a+CIUTecNM">Unete a nosotros</a></li>
             </ul>
             </li>
             <li class="features">
-                <h2>Procedimiento de Pagos</h2>
+                <h2>Descarga Nuestra App CIUTECNM</h2>
                 <ul class="box">
-                    <li><a type="button" class="btn btn-outline-info"  data-toggle="modal" data-target=".bd-example-modal-xl" href="#">Ver mas</a></li>
+                    <li><a type="button" class="btn btn-outline-info"  data-toggle="modal" data-target=".bd-example-modal-xl" href="{{asset('img/CIUTECNM.apk')}}">Download</a></li>
                 </ul>
                 </li>
         </ul>
         <div class="b-footer">
-            <p>Todos los Derechos reservados by <a href="https://josediazmirano.github.io/jldiaz/" target="_blank">©JLDIAZ-2020</a></p>
+            <p>Todos los Derechos reservados by <a href="#" target="_blank">©CIUTecNM-2022</a></p>
         </div>
 </footer>
 @endsection
@@ -303,7 +321,7 @@
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="text-center modal-title" id="exampleModalCenterTitle">Formas de pago</h5>
+                <h5 class="text-center modal-title" id="exampleModalCenterTitle">Descarga Nuestra App CIUTecNM</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -314,66 +332,30 @@
                             <img class="popou_img"src="{{ asset('img/pagos.jpg')}}" alt="">
                         </div>       
                         <div id="verde" class="content_pagos"> 
-                            <h2 class=" frm_pagos text-center">FORMAS DE PAGO</h2>
+                            <h2 class=" frm_pagos text-center">VALIDA TU IDENTIDAD, ¡NUESTRA APP ES GRATIS!</h2>
                 <hr class="style3"> 
 
                 <div id="price">
                     <!--price tab-->
-                    <div class="plan">
-                      <div class="plan-inner">
-                        <div class="entry-title">
-                          <h3>BCP</h3>
-                          <div class="price"><i class="mt-3 fa-2x fas fa-credit-card"></i>
-                          </div>
-                        </div>
-                        <div class="entry-content">
-                          <ul>
-                            <li>Número de cuenta</li>
-                            <li>******************</li>
-                            <li>N° de cta. interbancaria</li>
-                            <li>*********************</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
                     <!-- end of price tab-->
                     <!--price tab-->
                     <div class="plan basic">
                       <div class="plan-inner">
                         <div class="entry-title">
-                          <h3>BBVA</h3>
-                          <div class="price"><i class="mt-3 fa-2x fas fa-credit-card"></i>
+                          <h3>App CIUTecNM</h3>
+                          <div class="price"><i class="mt-3 fa-2x fas fa-mobile-alt"></i>
                           </div>
                         </div>
                         <div class="entry-content">
                           <ul>
-                            <li>Número de cuenta</li>
-                            <li>*******************</li>
-                            <li>N° de cta. interbancaria</li>
-                            <li>**********************</li>
+                            <li><a href="{{asset('img/CIUTECNM.apk')}}"><font color="aqua"></li>
+                            <li>Download</li>
                           </ul>
                         </div>
                       </div>
                     </div>
                     <!-- end of price tab-->
                     <!--price tab-->
-                    <div class="plan standard">
-                      <div class="plan-inner">
-                        <div class="entry-title">
-                          <h3>Yape</h3>
-                          <div class="price"><i class="mt-3 fa-2x fas fa-mobile-alt"></i>
-                          </div>
-                        </div>
-                        <div class="entry-content">
-                          <ul>
-                            <li>Número de Billetera Electronica</li>
-                            <li>999 086 095</li>
-                            <li>.</li>
-                            <li>.</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
                     <!-- end of price tab--> 
                 </div>
                         </div>
@@ -390,10 +372,10 @@
                 <img class="popou_img"src="{{ asset('img/entrega.jpg')}}" alt="">
             </div>       
             <div id="verde" class="content_pagos"> 
-                <h2 class=" frm_pagos text-center">REALIZAMOS DELIVERY ESPECIAL</h2>  
+                <h2 class=" frm_pagos text-center">ATENDIENDO SUS NECESIDADES</h2>  
                 <hr class="style3">   
-                <h5>Primero se envía la cotización al cliente, luego de ello el cliente envía la orden de compra por medio de nuestro correo y a las 24 horas 
-                    se le realiza el envío de los productos dentro de Lima sin costo alguno, a provincia se aplica un adicional.</h5>                   
+                <h5>Los diversos servicios que se ponen a su disposición están comprometidos a brindar la mejor de
+                    sus atenciones en busca de ganar su confianza y afianzar su fidelidad a su producto-servicio.</h5>                    
             </div>
         </div>
     </div>
@@ -419,7 +401,7 @@
                         <br>    
                         <h4>{{$oferta->texto}}</h4>  
                         <button type="button" class="btnwssp btn btn-outline-success btn-lg">
-                            <a target="none" href="https://wa.me/51987654321?text=Hola%2CEstoy+interesad%40+en+la+oferta%3A+{{$oferta->titulo}}">
+                            <a target="none" href="https://wa.me/5619918278?text=Hola%2CEstoy+interesad%40+en+unirme+a+CIUTecNM">
                                Preguntar
                             </a>
                         </button> 

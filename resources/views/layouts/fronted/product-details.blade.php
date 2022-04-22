@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" type="imagenes" href="{{asset('img/favicon.ico')}}">
+        <link rel="shortcut icon" type="imagenes" href="{{asset('img/favicon.jpg')}}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
-        <title>JLDM |Detalle de Producto</title>
+        <title>CIU | TecNM</title>
 
         <!-- Fonts--> 
         <link href="{{asset('css/style.css') }}" rel="stylesheet">

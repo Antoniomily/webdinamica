@@ -63,6 +63,6 @@
         3-No Elimine una categoría a no se por motivos mayores.
     </h4>
     <hr>
-    <p class="mb-0">Que tengas un hermoso dia Atte: JLDIAZ</p>
+    <p class="mb-0">Que tengas buen dia Atte: CIUTecNM</p>
 </div>
 @endsection

@@ -55,3 +55,26 @@ Route::resource('/Categorias', 'CategoriasController')->middleware('auth');
 Route::resource('/producto', 'ProductoController')->middleware('auth');
 
 /*ADMIN*/
+//Borrar cache de la aplicación
+Route::get('/clear-cache', function(){
+    $exitCode = Artisan::call('cache:clear');
+    return 'Application cache cleared';
+});
+
+//Borrar cache de ruta
+Route::get('/route-cache', function(){
+    $exitCode = Artisan::call('route:cache');
+    return 'Routes cache cleared';
+});
+
+//borrar cache de configuracion
+Route::get('/config-cache', function(){
+    $exitCode = Artisan::call('config:cache');
+    return 'Config cache cleared';
+});
+
+//Borrar cache de vista
+Route::get('/view-clear', function(){
+    $exitCode = Artisan::call('view:clear');
+    return 'View cache cleared';
+});
